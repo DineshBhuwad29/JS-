@@ -1,0 +1,19 @@
+const accountId = 12452
+let accountName = "Dinesh"
+var accountGender = "Male"
+accountCity = "Mumbai"
+let accountState
+
+// accountId=45652 //const variables cannot be changed
+
+/*
+prefer not to use var for declaring variables because it causes issues with block and functional scope
+*/
+
+accountName = "DineshBhuwad"
+var accountGender = "Man"
+accountCity = "Pune"
+
+console.log(accountId);
+
+console.table([accountId,accountName,accountGender,accountCity])
